@@ -1,0 +1,32 @@
+:root {
+  --theme-color: white;
+  --primary-color: #33ff00;
+  --secundary-color: #51ff00;
+  --text-color-inverse: white;
+  --text-color: rgb(255, 255, 255);
+  --navbar-shallow-color: #FADB8E;
+  --menu-mobile-background-color: #C4865B;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: rgb(0, 0, 0);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
